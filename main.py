@@ -1,4 +1,4 @@
-import tkinter
+
 from tkinter import *
 from tkinter import messagebox
 user_text=[]
@@ -74,7 +74,7 @@ typing_text.grid(row=4,column=0)
 typing_text.insert(END,quote)
 user_input=Text(win,width=60,height=10,padx=10,pady=10,font=('Arial 15'))
 user_input.grid(row=5,column=0)
-timer(10)
+timer(60)
 
 
 
